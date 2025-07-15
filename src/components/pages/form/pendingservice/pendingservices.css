@@ -1,0 +1,87 @@
+.pending-service-container {
+  width: 85%;
+  margin: 40px auto;
+  padding: 40px 50px;
+  background-color: #f9fbfe;
+  border: 2px solid #cfe2f3;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pending-service-container h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.form-section h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #002244;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-row label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #c0c0c0;
+  resize: vertical;
+  background-color: #fcfcfc;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #1659b7;
+  outline: none;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.cancel-btn,
+.submit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.cancel-btn:hover {
+  background-color: #ddd;
+}
+
+.submit-btn {
+  background-color: #0070f3;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #0059c1;
+}
